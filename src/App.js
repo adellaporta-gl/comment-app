@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import CommentList from './CommentList';
 import CommentBox from './CommentBox';
-class App extends React.Component {
+class App extends Component {
   state = {
     messages: [
       'React seems like a really cool library',
